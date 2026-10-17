@@ -1,6 +1,6 @@
 # Pilcrow Privacy Policy
 
-**Effective:** [DATE — set when published]  ·  **Published by:** [LEGAL NAME OR COMPANY, e.g. PluriaLabs]  ·  **Contact:** [CONTACT EMAIL]
+**Effective:** October 20, 2026  ·  **Published by:** PluriaLabs  ·  **Contact:** support@plurialabs.com
 
 Pilcrow is a text editor for Mac and iPad. It keeps your writing on your device. This page says what the app does with your information, in plain terms.
 
@@ -73,4 +73,4 @@ If this policy changes, the new version will be posted at this address with a ne
 
 ## Contact
 
-Questions about this policy: [CONTACT EMAIL].
+Questions about this policy: support@plurialabs.com.
