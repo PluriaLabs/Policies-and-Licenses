@@ -1,5 +1,7 @@
 # Pilcrow Privacy Policy
 
+*Other languages (AI translations; this English version is the clearest statement of the policy):* [Español](privacy-policy.es.md) · [Français](privacy-policy.fr.md) · [Deutsch](privacy-policy.de.md) · [Italiano](privacy-policy.it.md) · [Português (Brasil)](privacy-policy.pt-BR.md) · [Nederlands](privacy-policy.nl.md) · [Русский](privacy-policy.ru.md) · [日本語](privacy-policy.ja.md) · [한국어](privacy-policy.ko.md) · [简体中文](privacy-policy.zh-Hans.md)
+
 **Effective:** October 20, 2026
 
 **Publisher:** PluriaLabs
