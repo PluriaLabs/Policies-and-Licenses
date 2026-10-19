@@ -43,7 +43,7 @@ Eliminar información en Pilcrow o en su dispositivo no elimina necesariamente l
 
 ## Asistente opcional
 
-El Asistente, incluida la revisión de estilo, está desactivado hasta que usted añada una conexión en **Ajustes ▸ Asistente**. Puede conectarlo a un servicio de IA en línea, a un destino personalizado, a un software que se ejecute en su dispositivo o a un servicio de su red local.
+El Asistente, incluida la revisión de estilo, está desactivado hasta que usted añada una conexión en **Configuración ▸ Asistente**. Puede conectarlo a un servicio de IA en línea, a un destino personalizado, a un software que se ejecute en su dispositivo o a un servicio de su red local.
 
 ### Su elección y su permiso
 
@@ -110,7 +110,7 @@ Restablecer el Asistente elimina de Pilcrow sus conexiones guardadas, las creden
 
 ### Imágenes remotas
 
-Un documento puede hacer referencia a una imagen de internet. Pilcrow no carga imágenes remotas de forma predeterminada, ni siquiera en la vista previa ni en la exportación a PDF o a imagen. Si activa **Cargar imágenes de internet** en **Ajustes ▸ Imágenes**, Pilcrow solicita esas imágenes cuando hace falta.
+Un documento puede hacer referencia a una imagen de internet. Pilcrow no carga imágenes remotas de forma predeterminada, ni siquiera en la vista previa ni en la exportación a PDF o a imagen. Si activa **Cargar imágenes de internet** en **Configuración ▸ Edición ▸ Imágenes**, Pilcrow solicita esas imágenes cuando hace falta.
 
 El servidor de la imagen y cualquier destino de redirección pueden recibir su dirección IP, la fecha y la hora, la URL completa solicitada con su cadena de consulta, las cabeceras del protocolo y otra información de conexión ordinaria. El autor de un documento puede usar una URL de imagen única para saber que el documento se abrió. Pilcrow no añade a la solicitud ningún identificador publicitario ni de seguimiento, pero no puede impedir que el servidor registre o analice la solicitud. Desactive las imágenes remotas al leer documentos no confiables o sensibles.
 

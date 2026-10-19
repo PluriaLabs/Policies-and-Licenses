@@ -110,7 +110,7 @@ Reimpostare l’Assistente rimuove da Pilcrow le connessioni salvate, le credenz
 
 ### Immagini remote
 
-Un documento può fare riferimento a un’immagine su internet. Pilcrow non carica le immagini remote per impostazione predefinita, neppure nell’Anteprima e nell’esportazione in PDF o immagine. Se attivi **Carica immagini da internet** in **Impostazioni ▸ Immagini**, Pilcrow richiede tali immagini quando necessario.
+Un documento può fare riferimento a un’immagine su internet. Pilcrow non carica le immagini remote per impostazione predefinita, neppure nell’Anteprima e nell’esportazione in PDF o immagine. Se attivi **Carica immagini da internet** in **Impostazioni ▸ Modifica ▸ Immagini**, Pilcrow richiede tali immagini quando necessario.
 
 L’host dell’immagine e qualsiasi destinazione di reindirizzamento possono ricevere il tuo indirizzo IP, la data e l’ora, l’URL completo richiesto con la sua query string, le intestazioni del protocollo e altre normali informazioni di connessione. L’autore di un documento può usare un URL di immagine univoco per sapere che il documento è stato aperto. Pilcrow non aggiunge alla richiesta alcun identificativo pubblicitario o di tracciamento, ma non può impedire all’host di registrare o analizzare la richiesta. Disattiva le immagini remote quando leggi documenti non attendibili o sensibili.
 

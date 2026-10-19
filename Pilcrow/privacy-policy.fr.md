@@ -110,7 +110,7 @@ Réinitialiser l’Assistant supprime de Pilcrow ses connexions enregistrées, l
 
 ### Images distantes
 
-Un document peut faire référence à une image sur internet. Pilcrow ne charge pas les images distantes par défaut, y compris dans l’Aperçu et dans l’exportation PDF ou image. Si vous activez **Charger les images depuis internet** dans **Réglages ▸ Images**, Pilcrow demande ces images lorsque c’est nécessaire.
+Un document peut faire référence à une image sur internet. Pilcrow ne charge pas les images distantes par défaut, y compris dans l’Aperçu et dans l’exportation PDF ou image. Si vous activez **Charger les images depuis internet** dans **Réglages ▸ Édition ▸ Images**, Pilcrow demande ces images lorsque c’est nécessaire.
 
 L’hébergeur de l’image et toute destination de redirection peuvent recevoir votre adresse IP, la date et l’heure, l’URL complète demandée avec sa chaîne de requête, les en-têtes du protocole et d’autres informations de connexion ordinaires. L’auteur d’un document peut utiliser une URL d’image unique pour savoir que le document a été ouvert. Pilcrow n’ajoute à la requête aucun identifiant publicitaire ni de suivi, mais ne peut empêcher l’hébergeur de consigner ou d’analyser la requête. Désactivez les images distantes lorsque vous lisez des documents non fiables ou sensibles.
 

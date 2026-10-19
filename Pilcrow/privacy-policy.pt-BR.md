@@ -110,7 +110,7 @@ Redefinir o Assistente remove do Pilcrow suas conexões salvas, as credenciais a
 
 ### Imagens remotas
 
-Um documento pode se referir a uma imagem na internet. O Pilcrow não carrega imagens remotas por padrão, inclusive na Pré-visualização e na exportação para PDF ou imagem. Se você ativar **Carregar imagens da internet** em **Ajustes ▸ Imagens**, o Pilcrow solicita essas imagens quando necessário.
+Um documento pode se referir a uma imagem na internet. O Pilcrow não carrega imagens remotas por padrão, inclusive na Pré-visualização e na exportação para PDF ou imagem. Se você ativar **Carregar imagens da internet** em **Ajustes ▸ Edição ▸ Imagens**, o Pilcrow solicita essas imagens quando necessário.
 
 O host da imagem e qualquer destino de redirecionamento podem receber seu endereço IP, a data e a hora, a URL completa solicitada com sua query string, os cabeçalhos do protocolo e outras informações de conexão comuns. O autor de um documento pode usar uma URL de imagem exclusiva para saber que o documento foi aberto. O Pilcrow não adiciona à solicitação nenhum identificador de publicidade ou rastreamento, mas não pode impedir que o host registre ou analise a solicitação. Desative as imagens remotas ao ler documentos não confiáveis ou sensíveis.
 

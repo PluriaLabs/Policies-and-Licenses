@@ -110,7 +110,7 @@ Das Zurücksetzen des Assistenten entfernt aus Pilcrow die gespeicherten Verbind
 
 ### Externe Bilder
 
-Ein Dokument kann auf ein Bild im Internet verweisen. Pilcrow lädt externe Bilder standardmäßig nicht, auch nicht in der Vorschau und beim Export als PDF oder Bild. Wenn Sie **Bilder aus dem Internet laden** in **Einstellungen ▸ Bilder** aktivieren, fordert Pilcrow diese Bilder bei Bedarf an.
+Ein Dokument kann auf ein Bild im Internet verweisen. Pilcrow lädt externe Bilder standardmäßig nicht, auch nicht in der Vorschau und beim Export als PDF oder Bild. Wenn Sie **Bilder aus dem Internet laden** in **Einstellungen ▸ Bearbeitung ▸ Bilder** aktivieren, fordert Pilcrow diese Bilder bei Bedarf an.
 
 Der Bild-Host und jedes Weiterleitungsziel können Ihre IP-Adresse, Datum und Uhrzeit, die vollständig angeforderte URL samt Query-String, Protokoll-Header und andere gewöhnliche Verbindungsinformationen erhalten. Der Autor eines Dokuments kann eine eindeutige Bild-URL verwenden, um zu erfahren, dass das Dokument geöffnet wurde. Pilcrow fügt der Anfrage keine Werbe- oder Tracking-Kennung hinzu, kann aber nicht verhindern, dass der Host die Anfrage protokolliert oder auswertet. Deaktivieren Sie externe Bilder, wenn Sie nicht vertrauenswürdige oder sensible Dokumente lesen.
 

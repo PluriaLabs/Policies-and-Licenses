@@ -110,7 +110,7 @@ Het resetten van de Assistent verwijdert uit Pilcrow de opgeslagen verbindingen,
 
 ### Externe afbeeldingen
 
-Een document kan verwijzen naar een afbeelding op internet. Pilcrow laadt externe afbeeldingen standaard niet, ook niet in de Voorvertoning en bij export naar pdf of afbeelding. Als je **Afbeeldingen van internet laden** inschakelt in **Instellingen ▸ Afbeeldingen**, vraagt Pilcrow die afbeeldingen op wanneer dat nodig is.
+Een document kan verwijzen naar een afbeelding op internet. Pilcrow laadt externe afbeeldingen standaard niet, ook niet in de Voorvertoning en bij export naar pdf of afbeelding. Als je **Afbeeldingen van internet laden** inschakelt in **Instellingen ▸ Bewerken ▸ Afbeeldingen**, vraagt Pilcrow die afbeeldingen op wanneer dat nodig is.
 
 De host van de afbeelding en elke doorverwijsbestemming kunnen je IP-adres, de datum en tijd, de volledig opgevraagde URL met querystring, protocolheaders en andere gewone verbindingsinformatie ontvangen. De auteur van een document kan een unieke afbeeldings-URL gebruiken om te weten dat het document is geopend. Pilcrow voegt geen advertentie- of trackingidentificatie toe aan het verzoek, maar kan niet voorkomen dat de host het verzoek registreert of analyseert. Schakel externe afbeeldingen uit wanneer je onbetrouwbare of gevoelige documenten leest.
 

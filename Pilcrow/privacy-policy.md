@@ -110,7 +110,7 @@ Resetting the Assistant removes its saved connections, associated Keychain crede
 
 ### Remote images
 
-A document may refer to an image on the internet. Pilcrow does not load remote images by default, including in Preview and PDF or image export. If you enable **Load images from the internet** in **Settings ▸ Images**, Pilcrow requests those images when needed.
+A document may refer to an image on the internet. Pilcrow does not load remote images by default, including in Preview and PDF or image export. If you enable **Load images from the internet** in **Settings ▸ Editing ▸ Images**, Pilcrow requests those images when needed.
 
 The image host and any redirect destination may receive your IP address, the date and time, the complete requested URL and its query string, protocol headers and other ordinary connection information. A document author can use a unique image URL to learn that the document was opened. Pilcrow does not add an advertising or tracking identifier to the request, but it cannot prevent the host from logging or analyzing the request. Disable remote images when reading untrusted or sensitive documents.
 
