@@ -30,7 +30,7 @@ Pilcrow almacena la siguiente información en su dispositivo o en una ubicación
 - **Elementos de la biblioteca y ajustes.** Los temas, perfiles de sintaxis, macros, guías de estilo, fondos y preferencias se almacenan localmente. De forma predeterminada, los elementos de la biblioteca se guardan en el almacenamiento privado de Pilcrow. En su lugar, puede elegir otra carpeta, incluida una que un proveedor de almacenamiento sincronice.
 - **Elementos recientes.** Pilcrow puede recordar referencias a archivos y carpetas abiertos recientemente para que usted pueda volver a abrirlos. Puede desactivar esta función o borrar la lista en Ajustes o en el menú Archivo.
 - **Estadísticas de escritura.** Información como el número de palabras y la duración de las sesiones se calcula y se almacena para su uso. Pilcrow no transmite estas estadísticas a PluriaLabs.
-- **Registros locales.** Pilcrow escribe registros de diagnóstico en su dispositivo. No tiene ningún servicio integrado que suba automáticamente esos registros a PluriaLabs. Si decide adjuntar un registro a una solicitud de soporte, recibimos la copia que usted envíe.
+- **Registro de diagnóstico.** Pilcrow guarda en su dispositivo un registro breve de los problemas que encuentra. Mientras tenga activada la opción **Registrar el registro de diagnóstico** en Configuración, también registra más detalle de lo que hace la app. El registro está diseñado para excluir el texto y los nombres de sus documentos, y puede leerlo en la app y borrarlo en cualquier momento. Pilcrow no lo envía automáticamente a PluriaLabs. Un informe sale de su dispositivo solo si usted decide guardarlo, compartirlo o enviarlo, y usted elige qué información adicional incluye (datos del dispositivo y del sistema, ajustes de Pilcrow, cifras de velocidad y memoria, acciones recientes). Si informa de un problema en GitHub, lo que publique allí es público. Cuando Pilcrow lo ofrezca, puede enviar un informe al soporte de PluriaLabs, que recibe la copia que usted envíe.
 - **Credenciales del Asistente.** Las credenciales de los servicios que usted configure se almacenan mediante el llavero del sistema. Los ajustes de su sistema operativo, del llavero de iCloud y de las copias de seguridad pueden influir en que Apple sincronice o respalde los elementos del llavero.
 
 Pilcrow no utiliza intencionadamente el contenido de los documentos, los ajustes locales, las referencias a elementos recientes, las estadísticas de escritura ni las credenciales del Asistente para publicidad, elaboración de perfiles o analítica.
@@ -122,7 +122,7 @@ Pilcrow no ejecuta scripts incrustados en un documento. Los diagramas, ecuacione
 
 ### Conexiones con PluriaLabs
 
-Pilcrow no tiene ningún servicio de analítica, publicidad, seguimiento, sincronización de documentos ni proxy del Asistente operado por PluriaLabs. No envía a PluriaLabs sus documentos, estadísticas de escritura, registros locales ni historial de uso de funciones.
+Pilcrow no tiene ningún servicio de analítica, publicidad, seguimiento, sincronización de documentos ni proxy del Asistente operado por PluriaLabs. No envía a PluriaLabs sus documentos, estadísticas de escritura, registros locales ni historial de uso de funciones. Un informe de diagnóstico llega a PluriaLabs solo si usted decide enviárnoslo.
 
 ## Servicios de Apple, compras y diagnósticos
 

@@ -30,7 +30,7 @@ Pilcrow speichert die folgenden Informationen auf Ihrem Gerät oder an einem von
 - **Bibliothekselemente und Einstellungen.** Themen, Syntaxprofile, Makros, Stilrichtlinien, Hintergründe und Einstellungen werden lokal gespeichert. Standardmäßig liegen Bibliothekselemente im privaten App-Speicher von Pilcrow. Sie können stattdessen einen anderen Ordner wählen, auch einen, den ein Speicheranbieter synchronisiert.
 - **Zuletzt verwendete Objekte.** Pilcrow kann sich Verweise auf zuletzt geöffnete Dateien und Ordner merken, damit Sie sie erneut öffnen können. Sie können diese Funktion ausschalten oder die Liste in den Einstellungen oder im Menü „Datei“ löschen.
 - **Schreibstatistiken.** Informationen wie Wortzahlen und Sitzungsdauern werden für Ihren Gebrauch berechnet und gespeichert. Pilcrow überträgt diese Statistiken nicht an PluriaLabs.
-- **Lokale Protokolle.** Pilcrow schreibt Diagnoseprotokolle auf Ihr Gerät. Es gibt keinen eingebauten Dienst, der diese Protokolle automatisch an PluriaLabs hochlädt. Wenn Sie ein Protokoll einer Support-Anfrage beifügen, erhalten wir die von Ihnen gesendete Kopie.
+- **Diagnoseprotokoll.** Pilcrow führt auf Ihrem Gerät ein kurzes Protokoll der Probleme, auf die es stößt. Solange Sie in den Einstellungen **Diagnoseprotokoll aufzeichnen** eingeschaltet haben, hält es zusätzlich mehr Einzelheiten darüber fest, was die App tut. Das Protokoll ist so gestaltet, dass der Text und die Dateinamen Ihrer Dokumente nicht enthalten sind, und Sie können es in der App lesen und jederzeit löschen. Pilcrow sendet es nicht automatisch an PluriaLabs. Ein Bericht verlässt Ihr Gerät nur, wenn Sie ihn sichern, teilen oder senden, und Sie wählen, welche zusätzlichen Angaben er enthält (Geräte- und Systemdetails, Pilcrow-Einstellungen, Angaben zu Geschwindigkeit und Speicher, letzte Aktionen). Wenn Sie ein Problem auf GitHub melden, ist öffentlich, was Sie dort veröffentlichen. Wo Pilcrow es anbietet, können Sie einen Bericht an den Support von PluriaLabs senden, der die von Ihnen gesendete Kopie erhält.
 - **Zugangsdaten des Assistenten.** Zugangsdaten für von Ihnen eingerichtete Dienste werden im System-Schlüsselbund gespeichert. Ihre Einstellungen für Betriebssystem, iCloud-Schlüsselbund und Backups können beeinflussen, ob Schlüsselbundobjekte von Apple synchronisiert oder gesichert werden.
 
 Pilcrow verwendet Dokumentinhalte, lokale Einstellungen, Verweise auf zuletzt verwendete Objekte, Schreibstatistiken und Zugangsdaten des Assistenten nicht absichtlich für Werbung, Profilbildung oder Analysen.
@@ -122,7 +122,7 @@ Pilcrow führt keine in ein Dokument eingebetteten Skripte aus. Von Pilcrow bere
 
 ### Verbindungen zu PluriaLabs
 
-Pilcrow hat keinen von PluriaLabs betriebenen Dienst für Analysen, Werbung, Tracking, Dokumentsynchronisierung oder Assistenten-Proxy. Es sendet weder Ihre Dokumente noch Ihre Schreibstatistiken, lokalen Protokolle oder Ihren Funktionsnutzungsverlauf an PluriaLabs.
+Pilcrow hat keinen von PluriaLabs betriebenen Dienst für Analysen, Werbung, Tracking, Dokumentsynchronisierung oder Assistenten-Proxy. Es sendet weder Ihre Dokumente noch Ihre Schreibstatistiken, lokalen Protokolle oder Ihren Funktionsnutzungsverlauf an PluriaLabs. Ein Diagnosebericht gelangt nur dann zu PluriaLabs, wenn Sie ihn uns senden.
 
 ## Apple-Dienste, Käufe und Diagnosen
 

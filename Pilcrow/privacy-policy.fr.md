@@ -30,7 +30,7 @@ Pilcrow stocke les informations suivantes sur votre appareil ou à un emplacemen
 - **Éléments de bibliothèque et réglages.** Les thèmes, profils de syntaxe, macros, guides de style, arrière-plans et préférences sont stockés localement. Par défaut, les éléments de bibliothèque sont conservés dans le stockage privé de Pilcrow. Vous pouvez choisir un autre dossier, y compris un dossier qu’un fournisseur de stockage synchronise.
 - **Éléments récents.** Pilcrow peut mémoriser des références aux fichiers et dossiers ouverts récemment afin que vous puissiez les rouvrir. Vous pouvez désactiver cette fonction ou effacer la liste dans Réglages ou dans le menu Fichier.
 - **Statistiques d’écriture.** Des informations telles que le nombre de mots et la durée des sessions sont calculées et stockées pour votre usage. Pilcrow ne transmet pas ces statistiques à PluriaLabs.
-- **Journaux locaux.** Pilcrow écrit des journaux de diagnostic sur votre appareil. Il ne dispose d’aucun service intégré qui envoie automatiquement ces journaux à PluriaLabs. Si vous choisissez de joindre un journal à une demande d’assistance, nous recevons la copie que vous envoyez.
+- **Journal de diagnostic.** Pilcrow conserve sur votre appareil un court journal des problèmes qu’il rencontre. Tant que vous avez activé **Enregistrer le journal de diagnostic** dans les Réglages, il enregistre aussi davantage de détails sur ce que fait l’app. Le journal est conçu pour exclure le texte et les noms de vos documents, et vous pouvez le lire dans l’app et l’effacer à tout moment. Pilcrow ne l’envoie pas automatiquement à PluriaLabs. Un rapport ne quitte votre appareil que si vous choisissez de l’enregistrer, de le partager ou de l’envoyer, et vous choisissez les informations supplémentaires qu’il contient (détails sur l’appareil et le système, réglages de Pilcrow, mesures de vitesse et de mémoire, actions récentes). Si vous signalez un problème sur GitHub, ce que vous y publiez est public. Lorsque Pilcrow le propose, vous pouvez envoyer un rapport au support de PluriaLabs, qui reçoit la copie que vous envoyez.
 - **Identifiants de l’Assistant.** Les identifiants des services que vous configurez sont stockés à l’aide du trousseau système. Les réglages de votre système d’exploitation, du trousseau iCloud et des sauvegardes peuvent influer sur la synchronisation ou la sauvegarde des éléments du trousseau par Apple.
 
 Pilcrow n’utilise pas intentionnellement le contenu des documents, les réglages locaux, les références aux éléments récents, les statistiques d’écriture ni les identifiants de l’Assistant à des fins de publicité, de profilage ou d’analyse.
@@ -122,7 +122,7 @@ Pilcrow n’exécute pas les scripts intégrés à un document. Les diagrammes, 
 
 ### Connexions à PluriaLabs
 
-Pilcrow n’a aucun service d’analyse, de publicité, de suivi, de synchronisation de documents ni de proxy d’Assistant exploité par PluriaLabs. Il n’envoie à PluriaLabs ni vos documents, ni vos statistiques d’écriture, ni vos journaux locaux, ni votre historique d’utilisation des fonctions.
+Pilcrow n’a aucun service d’analyse, de publicité, de suivi, de synchronisation de documents ni de proxy d’Assistant exploité par PluriaLabs. Il n’envoie à PluriaLabs ni vos documents, ni vos statistiques d’écriture, ni vos journaux locaux, ni votre historique d’utilisation des fonctions. Un rapport de diagnostic n’arrive chez PluriaLabs que si vous choisissez de nous l’envoyer.
 
 ## Services Apple, achats et diagnostics
 

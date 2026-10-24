@@ -30,7 +30,7 @@ Pilcrow slaat de volgende informatie op je apparaat of op een door jou geselecte
 - **Bibliotheekitems en instellingen.** Thema’s, syntaxisprofielen, macro’s, stijlgidsen, achtergronden en voorkeuren worden lokaal opgeslagen. Standaard staan bibliotheekitems in de privéopslag van Pilcrow. Je kunt in plaats daarvan een andere map kiezen, ook een map die een opslagaanbieder synchroniseert.
 - **Recente items.** Pilcrow kan verwijzingen naar recent geopende bestanden en mappen onthouden zodat je ze opnieuw kunt openen. Je kunt deze functie uitschakelen of de lijst wissen in Instellingen of in het menu Bestand.
 - **Schrijfstatistieken.** Informatie zoals woordaantallen en sessieduur wordt voor jouw gebruik berekend en opgeslagen. Pilcrow verzendt deze statistieken niet naar PluriaLabs.
-- **Lokale logboeken.** Pilcrow schrijft diagnostische logboeken op je apparaat. Er is geen ingebouwde dienst die deze logboeken automatisch naar PluriaLabs uploadt. Als je ervoor kiest een logboek aan een supportverzoek toe te voegen, ontvangen wij de kopie die je verstuurt.
+- **Diagnoselogboek.** Pilcrow houdt op je apparaat een kort logboek bij van de problemen die het tegenkomt. Zolang je **Diagnoselogboek opnemen** in de Instellingen hebt aangezet, legt het ook meer details vast over wat de app doet. Het logboek is zo ontworpen dat de tekst en bestandsnamen van je documenten erbuiten blijven, en je kunt het in de app lezen en op elk moment wissen. Pilcrow stuurt het niet automatisch naar PluriaLabs. Een rapport verlaat je apparaat alleen als je kiest het te bewaren, te delen of te verzenden, en jij kiest welke extra informatie erin komt (apparaat- en systeemgegevens, Pilcrow-instellingen, cijfers over snelheid en geheugen, recente acties). Als je een probleem op GitHub meldt, is wat je daar plaatst openbaar. Waar Pilcrow het aanbiedt, kun je een rapport naar de support van PluriaLabs sturen, die de kopie ontvangt die je verzendt.
 - **Inloggegevens van de Assistent.** Inloggegevens voor diensten die je instelt, worden opgeslagen in de sleutelhanger van het systeem. Je instellingen voor het besturingssysteem, de iCloud-sleutelhanger en back-ups kunnen van invloed zijn op de vraag of items in de sleutelhanger door Apple worden gesynchroniseerd of geback-upt.
 
 Pilcrow gebruikt documentinhoud, lokale instellingen, verwijzingen naar recente items, schrijfstatistieken of inloggegevens van de Assistent niet opzettelijk voor reclame, profilering of analyses.
@@ -122,7 +122,7 @@ Pilcrow voert geen scripts uit die in een document zijn ingesloten. Diagrammen, 
 
 ### Verbindingen met PluriaLabs
 
-Pilcrow heeft geen door PluriaLabs beheerde dienst voor analyses, advertenties, tracking, documentsynchronisatie of Assistent-proxy. Het stuurt je documenten, schrijfstatistieken, lokale logboeken of gebruiksgeschiedenis van functies niet naar PluriaLabs.
+Pilcrow heeft geen door PluriaLabs beheerde dienst voor analyses, advertenties, tracking, documentsynchronisatie of Assistent-proxy. Het stuurt je documenten, schrijfstatistieken, lokale logboeken of gebruiksgeschiedenis van functies niet naar PluriaLabs. Een diagnoserapport komt alleen bij PluriaLabs terecht als je ervoor kiest het naar ons te sturen.
 
 ## Apple-diensten, aankopen en diagnose
 

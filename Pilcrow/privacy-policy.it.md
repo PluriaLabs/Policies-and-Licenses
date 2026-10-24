@@ -30,7 +30,7 @@ Pilcrow archivia le seguenti informazioni sul tuo dispositivo o in una posizione
 - **Elementi della libreria e impostazioni.** Temi, profili di sintassi, macro, guide di stile, sfondi e preferenze sono archiviati localmente. Per impostazione predefinita, gli elementi della libreria sono conservati nell’archivio privato di Pilcrow. Puoi invece scegliere un’altra cartella, anche una che un fornitore di archiviazione sincronizza.
 - **Elementi recenti.** Pilcrow può ricordare i riferimenti a file e cartelle aperti di recente, così da poterli riaprire. Puoi disattivare questa funzione o cancellare l’elenco in Impostazioni o nel menu File.
 - **Statistiche di scrittura.** Informazioni come il numero di parole e la durata delle sessioni sono calcolate e archiviate per tuo uso. Pilcrow non trasmette queste statistiche a PluriaLabs.
-- **Registri locali.** Pilcrow scrive registri diagnostici sul tuo dispositivo. Non dispone di alcun servizio integrato che carichi automaticamente tali registri su PluriaLabs. Se scegli di allegare un registro a una richiesta di assistenza, riceviamo la copia che invii.
+- **Log di diagnostica.** Pilcrow conserva sul tuo dispositivo un breve log dei problemi che incontra. Finché hai attivato **Registra il log di diagnostica** nelle Impostazioni, registra anche maggiori dettagli su ciò che fa l’app. Il log è progettato per escludere il testo e i nomi dei tuoi documenti e puoi leggerlo nell’app e cancellarlo in qualsiasi momento. Pilcrow non lo invia automaticamente a PluriaLabs. Un rapporto lascia il tuo dispositivo solo se scegli di salvarlo, condividerlo o inviarlo, e sei tu a scegliere quali informazioni aggiuntive include (dettagli su dispositivo e sistema, impostazioni di Pilcrow, dati di velocità e memoria, azioni recenti). Se segnali un problema su GitHub, ciò che pubblichi lì è pubblico. Dove Pilcrow lo offre, puoi inviare un rapporto all’assistenza di PluriaLabs, che riceve la copia che invii.
 - **Credenziali dell’Assistente.** Le credenziali dei servizi che configuri sono archiviate tramite il portachiavi di sistema. Le impostazioni del sistema operativo, del portachiavi iCloud e dei backup possono influire sulla sincronizzazione o sul backup degli elementi del portachiavi da parte di Apple.
 
 Pilcrow non utilizza intenzionalmente il contenuto dei documenti, le impostazioni locali, i riferimenti agli elementi recenti, le statistiche di scrittura o le credenziali dell’Assistente per pubblicità, profilazione o analisi.
@@ -122,7 +122,7 @@ Pilcrow non esegue script incorporati in un documento. Diagrammi, equazioni e gr
 
 ### Connessioni a PluriaLabs
 
-Pilcrow non ha alcun servizio gestito da PluriaLabs di analisi, pubblicità, tracciamento, sincronizzazione dei documenti o proxy dell’Assistente. Non invia a PluriaLabs i tuoi documenti, le statistiche di scrittura, i registri locali né la cronologia di utilizzo delle funzioni.
+Pilcrow non ha alcun servizio gestito da PluriaLabs di analisi, pubblicità, tracciamento, sincronizzazione dei documenti o proxy dell’Assistente. Non invia a PluriaLabs i tuoi documenti, le statistiche di scrittura, i registri locali né la cronologia di utilizzo delle funzioni. Un rapporto di diagnostica arriva a PluriaLabs solo se scegli di inviarcelo.
 
 ## Servizi Apple, acquisti e diagnostica
 

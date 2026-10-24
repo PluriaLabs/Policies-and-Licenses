@@ -30,7 +30,7 @@ Pilcrow stores the following information on your device or in a storage location
 - **Library items and settings.** Themes, syntax profiles, macros, style guides, backdrops and preferences are stored locally. By default, library items are kept in Pilcrow's private app storage. You may instead choose another folder, including a folder that a storage provider synchronizes.
 - **Recent items.** Pilcrow can remember references to recently opened files and folders so that you can reopen them. You can disable this feature or clear the list in Settings or the File menu.
 - **Writing statistics.** Information such as word counts and session times is calculated and stored for your use. Pilcrow does not transmit these statistics to PluriaLabs.
-- **Local logs.** Pilcrow writes diagnostic logs on your device. It has no built-in service that automatically uploads those logs to PluriaLabs. If you choose to attach a log to a support request, we receive the copy you send.
+- **Diagnostic log.** Pilcrow keeps a short log on your device of problems it meets. While you have turned on **Record diagnostic log** in Settings, it also records more detail about what the app is doing. The log is designed to leave out your document text and file names, and you can read it in the app and clear it at any time. Pilcrow does not send it to PluriaLabs automatically. A report leaves your device only if you choose to save, share or send it, and you choose which extra information (device and system details, Pilcrow settings, speed and memory figures, recent actions) it includes. If you report a problem on GitHub, what you post there is public. Where Pilcrow offers it, you can send a report to PluriaLabs support, which receives the copy you send.
 - **Assistant credentials.** Credentials for services you configure are stored using the system Keychain. Your operating-system, iCloud Keychain and backup settings may affect whether Keychain items are synchronized or backed up by Apple.
 
 Pilcrow does not intentionally use document content, local settings, recent-item references, writing statistics or Assistant credentials for advertising, profiling or analytics.
@@ -122,7 +122,7 @@ Pilcrow does not execute scripts embedded in a document. Diagrams, equations and
 
 ### Connections to PluriaLabs
 
-Pilcrow has no PluriaLabs-operated analytics, advertising, tracking, document-sync or Assistant proxy service. It does not send your documents, writing statistics, local logs or feature-usage history to PluriaLabs.
+Pilcrow has no PluriaLabs-operated analytics, advertising, tracking, document-sync or Assistant proxy service. It does not send your documents, writing statistics, local logs or feature-usage history to PluriaLabs. A diagnostic report reaches PluriaLabs only if you choose to send it to us.
 
 ## Apple services, purchases and diagnostics
 
