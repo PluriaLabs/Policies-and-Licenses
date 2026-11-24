@@ -19,7 +19,8 @@ Dit beleid legt uit hoe de Pilcrow-app met informatie omgaat. Het legt ook uit w
 - Je documenten en Pilcrow-instellingen worden lokaal opgeslagen of op een opslaglocatie die je zelf kiest. PluriaLabs ontvangt ze niet.
 - De optionele Assistent staat uit totdat je hem instelt. Op jouw aanwijzing kan Pilcrow materiaal rechtstreeks vanaf je apparaat verzenden naar een AI-dienst of ander eindpunt dat je kiest. PluriaLabs ontvangt of bewaart hiervan geen kopie.
 - Het laden van een externe afbeelding of het openen van een link maakt contact met de betreffende derde partij. Externe afbeeldingen staan standaard uit.
-- PluriaLabs ontvangt van Pilcrow je documenten of je gebruiksgeschiedenis van functies niet. Wij kunnen informatie ontvangen die je ons bewust stuurt, zoals in een e-mail aan de support, en beperkte distributie-, aankoop- of diagnose-informatie die Apple beschikbaar stelt.
+- PluriaLabs ontvangt van Pilcrow je documenten of je gebruiksgeschiedenis van functies niet. Wij kunnen informatie ontvangen die je ons bewust stuurt, zoals in een e-mail aan de support, stemmen die je uitbrengt op de openbare roadmap (zie **Pilcrow steunen en stemmen over de roadmap**), en beperkte distributie-, aankoop- of diagnose-informatie die Apple beschikbaar stelt.
+- Alle functies van Pilcrow zijn gratis. Pilcrow steunen is optioneel: als je een abonnement neemt of stemtegoed koopt, regelt Apple de betaling, en als je op de roadmap stemt, wordt je stem vastgelegd in een iCloud-database die PluriaLabs beheert, zonder naam of e-mailadres.
 
 ## Informatie die Pilcrow opslaat
 
@@ -30,6 +31,7 @@ Pilcrow slaat de volgende informatie op je apparaat of op een door jou geselecte
 - **Bibliotheekitems en instellingen.** Thema’s, syntaxisprofielen, macro’s, stijlgidsen, achtergronden en voorkeuren worden lokaal opgeslagen. Standaard staan bibliotheekitems in de privéopslag van Pilcrow. Je kunt in plaats daarvan een andere map kiezen, ook een map die een opslagaanbieder synchroniseert.
 - **Recente items.** Pilcrow kan verwijzingen naar recent geopende bestanden en mappen onthouden zodat je ze opnieuw kunt openen. Je kunt deze functie uitschakelen of de lijst wissen in Instellingen of in het menu Bestand.
 - **Schrijfstatistieken.** Informatie zoals woordaantallen en sessieduur wordt voor jouw gebruik berekend en opgeslagen. Pilcrow verzendt deze statistieken niet naar PluriaLabs.
+- **Stemtegoed.** Als je een abonnement neemt of stemtegoed koopt, bewaart Pilcrow op je apparaat een lijst van elke abonnementsperiode, aankoop en stem (met het roadmap-onderdeel waarop de stem is uitgebracht en de tijdstippen). Als je bent ingelogd bij iCloud, bewaart Pilcrow ook een kopie in je privé-iCloud-database, zodat je tegoed met je meegaat tussen je apparaten. PluriaLabs kan je privé-iCloud-database niet lezen; Apple slaat die op onder je Apple-account en hij telt mee voor je iCloud-opslag.
 - **Diagnoselogboek.** Pilcrow houdt op je apparaat een kort logboek bij van de problemen die het tegenkomt. Zolang je **Diagnoselogboek opnemen** in de Instellingen hebt aangezet, legt het ook meer details vast over wat de app doet. Het logboek is zo ontworpen dat de tekst en bestandsnamen van je documenten erbuiten blijven, en je kunt het in de app lezen en op elk moment wissen. Pilcrow stuurt het niet automatisch naar PluriaLabs. Een rapport verlaat je apparaat alleen als je kiest het te bewaren, te delen of te verzenden, en jij kiest welke extra informatie erin komt (apparaat- en systeemgegevens, Pilcrow-instellingen, cijfers over snelheid en geheugen, recente acties). ‘Een bug melden’ opent op GitHub een formulier voor bugmeldingen. Om het in te vullen zet Pilcrow de versie van Pilcrow en, tenzij je dat in de Instellingen hebt uitgezet, de systeemversie en het apparaatmodel in het webadres dat het opent, en kopieert het op jouw verzoek het logboek naar je klembord zodat je het in het formulier plakt. Wat je op GitHub plaatst is openbaar, en daarvoor gelden de voorwaarden en het privacybeleid van GitHub. Als Pilcrow onverwacht stopt, kunnen ook de crashdetails die het systeem meldt (een aanroepstack en het soort fout, nooit de tekst van je documenten) in een rapport worden opgenomen, en je kunt ze uitzetten.
 - **Inloggegevens van de Assistent.** Inloggegevens voor diensten die je instelt, worden opgeslagen in de sleutelhanger van het systeem. Je instellingen voor het besturingssysteem, de iCloud-sleutelhanger en back-ups kunnen van invloed zijn op de vraag of items in de sleutelhanger door Apple worden gesynchroniseerd of geback-upt.
 
@@ -106,6 +108,39 @@ Gesprekken met de Assistent en controleresultaten worden bewaard voor de actieve
 
 Het resetten van de Assistent verwijdert uit Pilcrow de opgeslagen verbindingen, de bijbehorende inloggegevens in de sleutelhanger, het gesprek en de controleresultaten van de sessie en de privacykeuzes van de Assistent. Het verwijdert geen informatie die een externe dienst al heeft ontvangen.
 
+## Pilcrow steunen en stemmen over de roadmap
+
+Alle functies van Pilcrow zijn gratis. Als je de ontwikkeling wilt helpen betalen, kun je een abonnement nemen of stemtegoed kopen en dat gebruiken om te stemmen over welke functies hierna worden gebouwd. Stemmen bepalen de volgorde van het werk; ze beloven geen enkele functie.
+
+### Aankopen
+
+Pilcrow Supporter is een maandelijks abonnement dat je drie stemmen geeft voor elke betaalde maand. Ongebruikte abonnementsstemmen verlopen wanneer de betaalde maand eindigt. Je kunt ook losse stemmen kopen, die niet verlopen. Apple verwerkt elke aankoop volgens het [Privacybeleid van Apple](https://www.apple.com/legal/privacy/). Pilcrow ontvangt je betaalgegevens of het wachtwoord van je Apple-account niet, en PluriaLabs ziet alleen wat Apple doorgeeft, zoals totalen van verkopen en abonnementen.
+
+### Je tegoed
+
+Pilcrow bewaart je tegoedlijst op je apparaat. Als je bent ingelogd bij iCloud, bewaart het ook een kopie in je privé-iCloud-database, zodat een aankoop op het ene apparaat ook op je andere verschijnt. PluriaLabs kan die database niet lezen. Als iCloud niet beschikbaar is, blijft je tegoed op het apparaat dat het kocht totdat iCloud weer beschikbaar is.
+
+### Stemmen
+
+Wanneer je op **Stem** tikt, gebruikt Pilcrow één stem en legt het de stem vast in een openbare iCloud-database (CloudKit) die PluriaLabs beheert. Een stemrecord bevat:
+
+- het roadmap-onderdeel waarop je hebt gestemd en de stemronde;
+- het aantal gebruikte stemmen (één);
+- een willekeurige identificatie van de stem; en
+- een anonieme identificatie die CloudKit aan je iCloud-account voor deze app toekent, en het tijdstip van de stem.
+
+Het bevat niet je naam, e-mailadres, Apple-account, betaalgegevens of tekst van documenten. Apple slaat het record op namens PluriaLabs en andere Pilcrow-gebruikers kunnen het lezen: zij zien de totalen en zouden ook afzonderlijke stemrecords kunnen zien. PluriaLabs kan dezelfde records zien. Wij gebruiken stemmen alleen om te beslissen wat we hierna bouwen en om de totalen in de app te tonen. We verkopen ze niet, delen ze niet voor reclame en combineren ze niet met andere informatie om je te identificeren.
+
+Stemmen kunnen niet worden ingetrokken. We bewaren stemmen voor de roadmapronde waartoe ze behoren en kunnen ze daarna verwijderen.
+
+### Ons vragen je stemmen te verwijderen
+
+Omdat een stem geen naam of e-mailadres bevat en Pilcrow je je anonieme identificatie niet laat zien, kunnen we meestal niet zien welke records van jou zijn. Wil je dat je stemmen worden verwijderd, mail dan naar support@plurialabs.com met de roadmap-onderdelen en bij benadering de data; we verwijderen records die we redelijkerwijs aan je beschrijving kunnen koppelen en laten het weten als dat niet lukt.
+
+### Uitzetten
+
+Voor stemmen moet je zijn ingelogd bij iCloud. Je kunt op elk moment uitloggen bij iCloud of iCloud voor Pilcrow uitzetten; Pilcrow blijft dan met alle functies ongewijzigd werken. Alleen het stemmen valt weg.
+
 ## Overige netwerkactiviteit
 
 ### Externe afbeeldingen
@@ -120,13 +155,17 @@ Het openen van een link in een document stuurt de bestemming naar je gekozen bro
 
 Pilcrow voert geen scripts uit die in een document zijn ingesloten. Diagrammen, formules en grafieken die Pilcrow levert, worden lokaal weergegeven. Afgezien van inhoud die je bewust via de Assistent verstuurt, externe afbeeldingen die je inschakelt en links die je kiest te openen, laat Pilcrow documentinhoud niet opzettelijk contact opnemen met een externe bestemming.
 
+### De roadmaplijst
+
+Pilcrow kan een klein openbaar bestand ophalen dat de functies opsomt waarover gestemd kan worden. Het verzoek gaat naar raw.githubusercontent.com en bevat geen account, geen identificatie en geen cookies. De host kan gewone verbindingsinformatie zien, zoals je IP-adres, het tijdstip en de naam en versie van de app die je apparaat doorgeeft.
+
 ### Verbindingen met PluriaLabs
 
-Pilcrow heeft geen door PluriaLabs beheerde dienst voor analyses, advertenties, tracking, documentsynchronisatie of Assistent-proxy. Het stuurt je documenten, schrijfstatistieken, lokale logboeken of gebruiksgeschiedenis van functies niet naar PluriaLabs. PluriaLabs ontvangt een diagnoserapport alleen als je het op GitHub plaatst of het zelf naar ons stuurt.
+Pilcrow heeft geen door PluriaLabs beheerde dienst voor analyses, advertenties, tracking, documentsynchronisatie of Assistent-proxy. Het stuurt je documenten, schrijfstatistieken, lokale logboeken of gebruiksgeschiedenis van functies niet naar PluriaLabs. PluriaLabs ontvangt een diagnoserapport alleen als je het op GitHub plaatst of het zelf naar ons stuurt. PluriaLabs ontvangt ook stemmen die je bewust uitbrengt (zie **Pilcrow steunen en stemmen over de roadmap**).
 
 ## Apple-diensten, aankopen en diagnose
 
-Apple verwerkt App Store-downloads, aankopen, bonnen, updates, iCloud-activiteit, back-ups van apparaten en andere Apple-diensten volgens het [Privacybeleid van Apple](https://www.apple.com/legal/privacy/). Pilcrow ontvangt het wachtwoord van je Apple-account of je betaalkaartgegevens niet.
+Apple verwerkt App Store-downloads, aankopen, bonnen, updates, iCloud-activiteit, back-ups van apparaten en andere Apple-diensten volgens het [Privacybeleid van Apple](https://www.apple.com/legal/privacy/). Pilcrow ontvangt het wachtwoord van je Apple-account of je betaalkaartgegevens niet. Pilcrow controleert elke aankoop op je apparaat met de handtekening die Apple levert. Een abonnement wordt elke maand verlengd totdat je het opzegt in de instellingen van je Apple-account, en Apple, niet PluriaLabs, int de betaling en regelt terugbetalingen.
 
 Apple kan PluriaLabs verkoop-, transactie- of abonnementsrapportages bezorgen die samenhangen met de distributie van de app. Apple kan ook crash- of prestatiediagnose bezorgen als je het delen van diagnose met app-ontwikkelaars hebt ingeschakeld. Pilcrow gebruikt deze informatie niet voor reclame of tracking. PluriaLabs gebruikt door Apple beschikbaar gestelde informatie alleen om de distributie te beheren, een aankoop te verifiëren of te ondersteunen, crashes te begrijpen, de beveiliging te handhaven en de betrouwbaarheid te verbeteren. De beschikbare informatie en de bewaartermijn daarvan worden mede bepaald door de systemen van Apple en je Apple-instellingen.
 
@@ -153,6 +192,8 @@ Je kunt het grootste deel van de informatie die in dit beleid wordt beschreven r
 - kiezen of je lokale logboeken of andere bijlagen in een supportverzoek opneemt;
 - de Assistent uitgeschakeld laten, elke verzending controleren, uitsluitingen beheren, afzonderlijke verbindingen verwijderen of de Assistent resetten;
 - inloggegevens van diensten intrekken bij de dienst die ze heeft uitgegeven;
+- alleen een abonnement nemen, tegoed kopen en stemmen als je dat wilt, en een abonnement opzeggen in de instellingen van je Apple-account;
+- je tegoedlijst uit iCloud verwijderen door iCloud voor Pilcrow uit te zetten of de gegevens ervan te verwijderen via Instellingen ▸ Apple-account ▸ iCloud ▸ Beheer opslag;
 - externe afbeeldingen uitschakelen; en
 - iCloud, sleutelhanger, back-ups, App Store en het delen van diagnose beheren in de Apple-instellingen.
 
@@ -160,7 +201,7 @@ Privacywetten kunnen je ook rechten geven op persoonsgegevens die PluriaLabs ove
 
 Waar PluriaLabs zich voor het verwerken van informatie op je toestemming baseert, kun je die toestemming intrekken voor toekomstige verwerking. Intrekking heeft geen invloed op verwerking die vóór de intrekking rechtmatig was.
 
-Omdat PluriaLabs je lokaal opgeslagen documenten en je uitwisselingen met de Assistent niet ontvangt, kunnen wij die kopieën niet voor je inzien, exporteren, corrigeren of verwijderen. Neem contact op met de betreffende opslag- of AI-aanbieder over informatie in diens systemen.
+Omdat PluriaLabs je lokaal opgeslagen documenten en je uitwisselingen met de Assistent niet ontvangt, kunnen wij die kopieën niet voor je inzien, exporteren, corrigeren of verwijderen. Neem contact op met de betreffende opslag- of AI-aanbieder over informatie in diens systemen. Stemmen zijn anders: ze worden vastgelegd in een database die PluriaLabs beheert. Zie **Pilcrow steunen en stemmen over de roadmap** voor hoe je ons kunt vragen ze te verwijderen.
 
 Je kunt ook een klacht indienen bij de gegevensbeschermings- of privacytoezichthouder in je woonplaats. PluriaLabs zal je niet benadelen omdat je een toepasselijk privacyrecht uitoefent.
 

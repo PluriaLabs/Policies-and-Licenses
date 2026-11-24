@@ -1,6 +1,6 @@
 # Pilcrow Privacy Policy
 
-*Other languages (AI translations; this English version is the clearest statement of the policy):* [Español](privacy-policy.es.md) · [Français](privacy-policy.fr.md) · [Deutsch](privacy-policy.de.md) · [Italiano](privacy-policy.it.md) · [Português (Brasil)](privacy-policy.pt-BR.md) · [Nederlands](privacy-policy.nl.md) · [Русский](privacy-policy.ru.md) · [日本語](privacy-policy.ja.md) · [한국어](privacy-policy.ko.md) · [简体中文](privacy-policy.zh-Hans.md)
+*Other languages (AI translations; this English version is the clearest statement of the policy):* [Español](privacy-policy.es.md) · [Français](privacy-policy.fr.md) · [Deutsch](privacy-policy.de.md) · [Italiano](privacy-policy.it.md) · [Português (Brasil)](privacy-policy.pt-BR.md) · [Nederlands](privacy-policy.nl.md) · [Русский](privacy-policy.ru.md) · [日本語](privacy-policy.ja.md) · [한국어](privacy-policy.ko.md) · [简体中文](privacy-policy.zh-Hans.md) · [繁體中文](privacy-policy.zh-Hant.md) · [العربية](privacy-policy.ar.md) · [Dansk](privacy-policy.da.md) · [हिन्दी](privacy-policy.hi.md) · [Bahasa Indonesia](privacy-policy.id.md) · [Norsk bokmål](privacy-policy.nb.md) · [Polski](privacy-policy.pl.md) · [Svenska](privacy-policy.sv.md) · [ไทย](privacy-policy.th.md) · [Türkçe](privacy-policy.tr.md) · [Українська](privacy-policy.uk.md) · [Tiếng Việt](privacy-policy.vi.md)
 
 **Effective:** October 20, 2026
 
@@ -19,7 +19,8 @@ This policy explains how the Pilcrow app handles information. It also explains w
 - Your documents and Pilcrow settings are stored locally or in a storage location you choose. PluriaLabs does not receive them.
 - The optional Assistant is off until you configure it. At your direction, Pilcrow can transmit material directly from your device to an AI service or other endpoint you choose. PluriaLabs does not receive or retain a copy.
 - Loading a remote image or opening a link contacts the relevant third party. Remote images are disabled by default.
-- PluriaLabs does not receive your documents or feature-usage history from Pilcrow. We may receive information you deliberately send us, such as in a support email, and limited distribution, purchase or diagnostic information that Apple makes available.
+- PluriaLabs does not receive your documents or feature-usage history from Pilcrow. We may receive information you deliberately send us, such as in a support email, votes you choose to cast on the public roadmap (see **Supporting Pilcrow and roadmap voting**), and limited distribution, purchase or diagnostic information that Apple makes available.
+- Every Pilcrow feature is free. Supporting Pilcrow is optional: if you subscribe or buy voting credits, Apple handles the payment, and if you vote on the roadmap, your vote is recorded in an iCloud database that PluriaLabs operates, with no name or email attached.
 
 ## Information stored by Pilcrow
 
@@ -30,6 +31,7 @@ Pilcrow stores the following information on your device or in a storage location
 - **Library items and settings.** Themes, syntax profiles, macros, style guides, backdrops and preferences are stored locally. By default, library items are kept in Pilcrow's private app storage. You may instead choose another folder, including a folder that a storage provider synchronizes.
 - **Recent items.** Pilcrow can remember references to recently opened files and folders so that you can reopen them. You can disable this feature or clear the list in Settings or the File menu.
 - **Writing statistics.** Information such as word counts and session times is calculated and stored for your use. Pilcrow does not transmit these statistics to PluriaLabs.
+- **Voting credits.** If you subscribe or buy voting credits, Pilcrow keeps a list on your device of each subscription period, purchase and vote (with the roadmap item it was spent on, and the times). If you are signed in to iCloud, Pilcrow also keeps a copy in your private iCloud database so your credits follow you between your devices. PluriaLabs cannot read your private iCloud database; Apple stores it under your Apple Account and it counts toward your iCloud storage.
 - **Diagnostic log.** Pilcrow keeps a short log on your device of problems it meets. While you have turned on **Record diagnostic log** in Settings, it also records more detail about what the app is doing. The log is designed to leave out your document text and file names, and you can read it in the app and clear it at any time. Pilcrow does not send it to PluriaLabs automatically. A report leaves your device only if you choose to save, share or send it, and you choose which extra information (device and system details, Pilcrow settings, speed and memory figures, recent actions) it includes. Report a Bug opens a bug report form on GitHub. To fill it in, Pilcrow puts your Pilcrow version and, unless you have turned them off in Settings, your system version and device model in the web address it opens, and, if you choose, copies the log to your clipboard for you to paste into the form. What you post on GitHub is public, and GitHub’s own terms and privacy policy apply to it. If Pilcrow quits unexpectedly, the crash details the system reports (a call stack and the kind of fault, never your document text) can be included in a report too, and you can switch them off.
 - **Assistant credentials.** Credentials for services you configure are stored using the system Keychain. Your operating-system, iCloud Keychain and backup settings may affect whether Keychain items are synchronized or backed up by Apple.
 
@@ -106,6 +108,39 @@ Assistant conversations and review results are held for the active app session. 
 
 Resetting the Assistant removes its saved connections, associated Keychain credentials, in-session conversation and review results, and Assistant privacy choices from Pilcrow. It does not delete information already received by an external service.
 
+## Supporting Pilcrow and roadmap voting
+
+Every Pilcrow feature is free. If you want to help pay for development, you can subscribe or buy voting credits, and spend credits to vote on which features get built next. Votes guide the order of work; they do not promise any feature.
+
+### Purchases
+
+Pilcrow Supporter is a monthly subscription that gives you three voting credits for each paid month. Unused subscription credits expire when the paid month ends. You can also buy single credits, which do not expire. Apple processes every purchase under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). Pilcrow does not receive your payment-card details or Apple Account password, and PluriaLabs sees only what Apple reports to it, such as sales and subscription totals.
+
+### Your credits
+
+Pilcrow keeps your credit list on your device. If you are signed in to iCloud, it also keeps a copy in your private iCloud database, so a purchase on one device appears on your others. PluriaLabs cannot read that database. If iCloud is not available, your credits stay on the device that bought them until iCloud is available again.
+
+### Votes
+
+When you press **Vote**, Pilcrow spends one credit and records the vote in a public iCloud (CloudKit) database that PluriaLabs operates. A vote record contains:
+
+- the roadmap item you voted for and the voting round;
+- the number of credits used (one);
+- a random identifier for the vote; and
+- an anonymous identifier that CloudKit assigns to your iCloud account for this app, and the time of the vote.
+
+It does not contain your name, email address, Apple Account, payment information or any document text. The record is stored by Apple on PluriaLabs's behalf and is readable by other Pilcrow users, who see vote totals and could also see individual vote records. PluriaLabs can see the same records. We use votes only to decide what to build next and to show the totals in the app. We do not sell them, share them for advertising, or combine them with other information to identify you.
+
+Votes cannot be taken back. We keep votes for the roadmap round they belong to and may delete them afterwards.
+
+### Asking us to remove your votes
+
+Because a vote holds no name or email and Pilcrow does not show you your anonymous identifier, we usually cannot tell which records are yours. If you want your votes removed, email support@plurialabs.com with the roadmap items and approximate dates; we will remove records we can reasonably match to your description, and tell you if we cannot.
+
+### Turning it off
+
+Voting needs you to be signed in to iCloud. You can sign out of iCloud, or turn iCloud off for Pilcrow, at any time, and Pilcrow keeps working with every feature unchanged. Voting is the only part that stops.
+
 ## Other network activity
 
 ### Remote images
@@ -120,13 +155,17 @@ Opening a link in a document sends the destination to your selected browser or s
 
 Pilcrow does not execute scripts embedded in a document. Diagrams, equations and charts provided by Pilcrow are rendered locally. Apart from content you deliberately send through the Assistant, remote images you enable, and links you choose to open, Pilcrow does not intentionally cause document content to contact a remote destination.
 
+### The roadmap list
+
+Pilcrow can fetch a small public file that lists the features open for voting. The request goes to raw.githubusercontent.com and carries no account, no identifier and no cookies. The host can see ordinary connection information such as your IP address, the time, and the app name and version your device reports.
+
 ### Connections to PluriaLabs
 
-Pilcrow has no PluriaLabs-operated analytics, advertising, tracking, document-sync or Assistant proxy service. It does not send your documents, writing statistics, local logs or feature-usage history to PluriaLabs. PluriaLabs receives a diagnostic report only if you post it on GitHub or send it to us yourself.
+Pilcrow has no PluriaLabs-operated analytics, advertising, tracking, document-sync or Assistant proxy service. It does not send your documents, writing statistics, local logs or feature-usage history to PluriaLabs. PluriaLabs receives a diagnostic report only if you post it on GitHub or send it to us yourself, and receives a vote only if you choose to cast one (see **Supporting Pilcrow and roadmap voting**).
 
 ## Apple services, purchases and diagnostics
 
-Apple processes App Store downloads, purchases, receipts, updates, iCloud activity, device backups and other Apple services under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). Pilcrow does not receive your Apple Account password or payment-card details.
+Apple processes App Store downloads, purchases, receipts, updates, iCloud activity, device backups and other Apple services under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). Pilcrow does not receive your Apple Account password or payment-card details. Pilcrow checks each purchase on your device using the signature Apple provides. A subscription renews monthly until you cancel it in your Apple Account settings, and Apple, not PluriaLabs, takes the payment and handles refunds.
 
 Apple may provide PluriaLabs with sales, transaction or subscription reporting associated with distribution of the app. Apple may also provide crash or performance diagnostics if you have enabled sharing diagnostics with app developers. Pilcrow does not use this information for advertising or tracking. PluriaLabs uses information made available by Apple only to administer distribution, verify or support a purchase, understand crashes, maintain security and improve reliability. The information available and its retention are governed in part by Apple's systems and your Apple settings.
 
@@ -153,6 +192,8 @@ You can control most information described in this policy directly:
 - choose whether to include local logs or other attachments in a support request;
 - leave the Assistant disabled, review each submission, manage exclusions, remove individual connections or reset the Assistant;
 - revoke service credentials with the service that issued them;
+- subscribe, buy credits and vote only if you want to, and cancel a subscription in your Apple Account settings;
+- remove your credit list from iCloud by turning off iCloud for Pilcrow or deleting its data in Settings ▸ Apple Account ▸ iCloud ▸ Manage Storage;
 - disable remote images; and
 - manage iCloud, Keychain, backup, App Store and diagnostic-sharing choices in Apple settings.
 
@@ -160,7 +201,7 @@ Privacy laws may also give you rights over personal information PluriaLabs holds
 
 Where PluriaLabs relies on your consent to process information, you may withdraw that consent for future processing. Withdrawal does not affect processing that was lawful before the withdrawal.
 
-Because PluriaLabs does not receive your locally stored documents or Assistant exchanges, we cannot access, export, correct or delete those copies for you. Contact the applicable storage or AI provider about information in its systems.
+Because PluriaLabs does not receive your locally stored documents or Assistant exchanges, we cannot access, export, correct or delete those copies for you. Contact the applicable storage or AI provider about information in its systems. Votes are different: they are recorded in a database PluriaLabs operates. See **Supporting Pilcrow and roadmap voting** for how to ask us to remove them.
 
 You may also complain to the data-protection or privacy authority where you live. PluriaLabs will not discriminate against you for exercising an applicable privacy right.
 

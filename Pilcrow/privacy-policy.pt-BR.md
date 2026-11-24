@@ -19,7 +19,8 @@ Esta política explica como o app Pilcrow trata as informações. Ela também ex
 - Seus documentos e ajustes do Pilcrow são armazenados localmente ou em um local de armazenamento que você escolher. A PluriaLabs não os recebe.
 - O Assistente opcional fica desativado até você configurá-lo. Por sua instrução, o Pilcrow pode transmitir material diretamente do seu dispositivo para um serviço de IA ou outro endpoint que você escolher. A PluriaLabs não recebe nem retém cópia.
 - Carregar uma imagem remota ou abrir um link entra em contato com o terceiro correspondente. As imagens remotas ficam desativadas por padrão.
-- A PluriaLabs não recebe do Pilcrow seus documentos nem seu histórico de uso de recursos. Podemos receber informações que você nos enviar deliberadamente, como em um e-mail de suporte, e informações limitadas de distribuição, compra ou diagnóstico que a Apple disponibilize.
+- A PluriaLabs não recebe do Pilcrow seus documentos nem seu histórico de uso de recursos. Podemos receber informações que você nos enviar deliberadamente, como em um e-mail de suporte, votos que você decidir dar no roteiro público (veja **Apoiar o Pilcrow e votar no roteiro**) e informações limitadas de distribuição, compra ou diagnóstico que a Apple disponibilize.
+- Todos os recursos do Pilcrow são gratuitos. Apoiar o Pilcrow é opcional: se você assinar ou comprar créditos de voto, a Apple cuida do pagamento, e se você votar no roteiro, seu voto é registrado em um banco de dados do iCloud operado pela PluriaLabs, sem nome nem e-mail associados.
 
 ## Informações armazenadas pelo Pilcrow
 
@@ -30,6 +31,7 @@ O Pilcrow armazena as seguintes informações no seu dispositivo ou em um local 
 - **Itens da biblioteca e ajustes.** Temas, perfis de sintaxe, macros, guias de estilo, planos de fundo e preferências são armazenados localmente. Por padrão, os itens da biblioteca ficam no armazenamento privado do Pilcrow. Você pode escolher outra pasta, inclusive uma que um provedor de armazenamento sincronize.
 - **Itens recentes.** O Pilcrow pode lembrar referências a arquivos e pastas abertos recentemente para que você possa reabri-los. Você pode desativar esse recurso ou limpar a lista em Ajustes ou no menu Arquivo.
 - **Estatísticas de escrita.** Informações como contagem de palavras e duração das sessões são calculadas e armazenadas para o seu uso. O Pilcrow não transmite essas estatísticas à PluriaLabs.
+- **Créditos de voto.** Se você assinar ou comprar créditos de voto, o Pilcrow mantém no seu dispositivo uma lista de cada período de assinatura, compra e voto (com o item do roteiro em que foi gasto e os horários). Se você estiver conectado ao iCloud, o Pilcrow também mantém uma cópia no seu banco de dados privado do iCloud para que seus créditos acompanhem você entre os dispositivos. A PluriaLabs não consegue ler o seu banco de dados privado do iCloud; a Apple o armazena na sua conta Apple e ele conta no seu armazenamento do iCloud.
 - **Registro de diagnóstico.** O Pilcrow mantém no seu dispositivo um registro curto dos problemas que encontra. Enquanto você tiver ativado **Gravar o registro de diagnóstico** nos Ajustes, ele também grava mais detalhes sobre o que o app está fazendo. O registro foi feito para deixar de fora o texto e os nomes dos seus documentos, e você pode lê-lo no app e limpá-lo a qualquer momento. O Pilcrow não o envia automaticamente à PluriaLabs. Um relatório só sai do seu dispositivo se você optar por salvá-lo, compartilhá-lo ou enviá-lo, e você escolhe quais informações extras ele inclui (dados do dispositivo e do sistema, ajustes do Pilcrow, números de velocidade e memória, ações recentes). “Relatar um bug” abre no GitHub um formulário de relatório de bug. Para preenchê-lo, o Pilcrow coloca no endereço da web que abre a versão do Pilcrow e, a menos que você tenha desativado nos Ajustes, a versão do sistema e o modelo do dispositivo e, se você optar, copia o registro para a área de transferência para você colar no formulário. O que você publicar no GitHub é público, e os termos e a política de privacidade do GitHub se aplicam a isso. Se o Pilcrow for encerrado inesperadamente, os detalhes da falha informados pelo sistema (uma pilha de chamadas e o tipo de erro, nunca o texto dos seus documentos) também podem ser incluídos em um relatório, e você pode desativá-los.
 - **Credenciais do Assistente.** As credenciais dos serviços que você configurar são armazenadas no Chaveiro do sistema. Os ajustes do seu sistema operacional, do Chaveiro do iCloud e dos backups podem afetar se os itens do Chaveiro são sincronizados ou salvos em backup pela Apple.
 
@@ -106,6 +108,39 @@ As conversas com o Assistente e os resultados das revisões são mantidos durant
 
 Redefinir o Assistente remove do Pilcrow suas conexões salvas, as credenciais associadas do Chaveiro, a conversa e os resultados de revisão da sessão e as escolhas de privacidade do Assistente. Isso não exclui informações já recebidas por um serviço externo.
 
+## Apoiar o Pilcrow e votar no roteiro
+
+Todos os recursos do Pilcrow são gratuitos. Se quiser ajudar a custear o desenvolvimento, você pode assinar ou comprar créditos de voto e gastá-los para votar em quais recursos serão feitos a seguir. Os votos orientam a ordem do trabalho; não prometem nenhum recurso.
+
+### Compras
+
+O Pilcrow Supporter é uma assinatura mensal que dá a você três créditos de voto para cada mês pago. Os créditos da assinatura não usados expiram quando o mês pago termina. Você também pode comprar créditos avulsos, que não expiram. A Apple processa todas as compras conforme a [Política de Privacidade da Apple](https://www.apple.com/legal/privacy/). O Pilcrow não recebe os dados do seu cartão de pagamento nem a senha da sua conta Apple, e a PluriaLabs vê apenas o que a Apple informa, como totais de vendas e assinaturas.
+
+### Seus créditos
+
+O Pilcrow mantém a lista dos seus créditos no seu dispositivo. Se você estiver conectado ao iCloud, ele também mantém uma cópia no seu banco de dados privado do iCloud, de modo que uma compra feita em um dispositivo apareça nos outros. A PluriaLabs não consegue ler esse banco de dados. Se o iCloud não estiver disponível, seus créditos permanecem no dispositivo que os comprou até o iCloud voltar a estar disponível.
+
+### Votos
+
+Quando você toca em **Votar**, o Pilcrow gasta um crédito e registra o voto em um banco de dados público do iCloud (CloudKit) operado pela PluriaLabs. Um registro de voto contém:
+
+- o item do roteiro em que você votou e a rodada de votação;
+- o número de créditos usados (um);
+- um identificador aleatório do voto; e
+- um identificador anônimo que o CloudKit atribui à sua conta do iCloud para este app, e o horário do voto.
+
+Ele não contém seu nome, seu e-mail, sua conta Apple, informações de pagamento nem texto de documentos. O registro é armazenado pela Apple em nome da PluriaLabs e pode ser lido por outros usuários do Pilcrow, que veem os totais de votos e também poderiam ver registros de voto individuais. A PluriaLabs pode ver os mesmos registros. Usamos os votos apenas para decidir o que fazer a seguir e para mostrar os totais no app. Não os vendemos, não os compartilhamos para publicidade nem os combinamos com outras informações para identificar você.
+
+Os votos não podem ser retirados. Mantemos os votos da rodada do roteiro a que pertencem e podemos excluí-los depois.
+
+### Pedir a remoção dos seus votos
+
+Como um voto não contém nome nem e-mail e o Pilcrow não mostra a você o seu identificador anônimo, normalmente não conseguimos saber quais registros são seus. Se quiser que seus votos sejam removidos, escreva para support@plurialabs.com com os itens do roteiro e datas aproximadas; removeremos os registros que pudermos associar razoavelmente à sua descrição e avisaremos se não for possível.
+
+### Desativar
+
+Votar exige que você esteja conectado ao iCloud. Você pode sair do iCloud, ou desativar o iCloud para o Pilcrow, a qualquer momento, e o Pilcrow continua funcionando com todos os recursos inalterados. Só o voto deixa de funcionar.
+
 ## Outras atividades de rede
 
 ### Imagens remotas
@@ -120,13 +155,17 @@ Abrir um link em um documento envia o destino ao navegador selecionado ou ao man
 
 O Pilcrow não executa scripts incorporados em um documento. Diagramas, equações e gráficos fornecidos pelo Pilcrow são renderizados localmente. Além do conteúdo que você envia deliberadamente pelo Assistente, das imagens remotas que você ativar e dos links que você optar por abrir, o Pilcrow não faz intencionalmente que o conteúdo de um documento entre em contato com um destino remoto.
 
+### A lista do roteiro
+
+O Pilcrow pode buscar um pequeno arquivo público que lista os recursos abertos para votação. A solicitação vai para raw.githubusercontent.com e não inclui conta, identificador nem cookies. O host pode ver informações de conexão comuns, como seu endereço IP, o horário e o nome e a versão do app informados pelo seu dispositivo.
+
 ### Conexões com a PluriaLabs
 
-O Pilcrow não tem nenhum serviço operado pela PluriaLabs de análise, publicidade, rastreamento, sincronização de documentos ou proxy do Assistente. Ele não envia à PluriaLabs seus documentos, estatísticas de escrita, registros locais nem histórico de uso de recursos. A PluriaLabs só recebe um relatório de diagnóstico se você o publicar no GitHub ou o enviar a nós por conta própria.
+O Pilcrow não tem nenhum serviço operado pela PluriaLabs de análise, publicidade, rastreamento, sincronização de documentos ou proxy do Assistente. Ele não envia à PluriaLabs seus documentos, estatísticas de escrita, registros locais nem histórico de uso de recursos. A PluriaLabs só recebe um relatório de diagnóstico se você o publicar no GitHub ou o enviar a nós por conta própria. A PluriaLabs também recebe os votos que você decidir dar (veja **Apoiar o Pilcrow e votar no roteiro**).
 
 ## Serviços da Apple, compras e diagnósticos
 
-A Apple trata downloads da App Store, compras, recibos, atualizações, atividade do iCloud, backups do dispositivo e outros serviços da Apple conforme a [Política de Privacidade da Apple](https://www.apple.com/legal/privacy/). O Pilcrow não recebe a senha da sua conta Apple nem os dados do seu cartão de pagamento.
+A Apple trata downloads da App Store, compras, recibos, atualizações, atividade do iCloud, backups do dispositivo e outros serviços da Apple conforme a [Política de Privacidade da Apple](https://www.apple.com/legal/privacy/). O Pilcrow não recebe a senha da sua conta Apple nem os dados do seu cartão de pagamento. O Pilcrow verifica cada compra no seu dispositivo usando a assinatura fornecida pela Apple. Uma assinatura é renovada todo mês até você cancelá-la nos ajustes da sua conta Apple, e quem cobra o pagamento e cuida dos reembolsos é a Apple, não a PluriaLabs.
 
 A Apple pode fornecer à PluriaLabs relatórios de vendas, transações ou assinaturas associados à distribuição do app. A Apple também pode fornecer diagnósticos de falhas ou de desempenho se você tiver ativado o compartilhamento de diagnósticos com desenvolvedores de apps. O Pilcrow não usa essas informações para publicidade ou rastreamento. A PluriaLabs usa as informações disponibilizadas pela Apple apenas para administrar a distribuição, verificar ou apoiar uma compra, entender falhas, manter a segurança e melhorar a confiabilidade. As informações disponíveis e sua retenção são regidas em parte pelos sistemas da Apple e pelos seus ajustes da Apple.
 
@@ -153,6 +192,8 @@ Você pode controlar diretamente a maior parte das informações descritas nesta
 - escolher se inclui registros locais ou outros anexos em uma solicitação de suporte;
 - deixar o Assistente desativado, revisar cada envio, gerenciar as exclusões, remover conexões individuais ou redefinir o Assistente;
 - revogar credenciais de serviço no serviço que as emitiu;
+- assinar, comprar créditos e votar somente se quiser, e cancelar uma assinatura nos ajustes da sua conta Apple;
+- remover sua lista de créditos do iCloud desativando o iCloud para o Pilcrow ou excluindo os dados dele em Ajustes ▸ conta Apple ▸ iCloud ▸ Gerenciar Armazenamento;
 - desativar as imagens remotas; e
 - gerenciar iCloud, Chaveiro, backups, App Store e compartilhamento de diagnósticos nos ajustes da Apple.
 
@@ -160,7 +201,7 @@ As leis de privacidade também podem lhe conferir direitos sobre dados pessoais 
 
 Quando a PluriaLabs se basear no seu consentimento para tratar informações, você pode retirá-lo para tratamentos futuros. A retirada não afeta o tratamento que era lícito antes dela.
 
-Como a PluriaLabs não recebe seus documentos armazenados localmente nem suas trocas com o Assistente, não podemos acessar, exportar, corrigir ou excluir essas cópias para você. Entre em contato com o provedor de armazenamento ou de IA aplicável sobre as informações em seus sistemas.
+Como a PluriaLabs não recebe seus documentos armazenados localmente nem suas trocas com o Assistente, não podemos acessar, exportar, corrigir ou excluir essas cópias para você. Entre em contato com o provedor de armazenamento ou de IA aplicável sobre as informações em seus sistemas. Os votos são diferentes: eles são registrados em um banco de dados operado pela PluriaLabs. Veja **Apoiar o Pilcrow e votar no roteiro** para saber como pedir que sejam removidos.
 
 Você também pode apresentar uma reclamação à autoridade de proteção de dados ou de privacidade do local onde mora. A PluriaLabs não discriminará você por exercer um direito de privacidade aplicável.
 
